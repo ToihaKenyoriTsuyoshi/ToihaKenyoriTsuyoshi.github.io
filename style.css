@@ -24,7 +24,7 @@ body {
 
 /* 「ようこそ！」だけ右にずらす */
 .yokoso {
-    margin-left: 200px;
+    margin-left: 100px;
     display: inline-block;
 }
 
