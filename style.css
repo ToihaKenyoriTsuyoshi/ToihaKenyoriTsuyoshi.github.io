@@ -30,7 +30,7 @@ body {
 
 /* 画像部分 */
 .title-image img {
-    max-width: 220px;
+    max-width: 600px;
     height: auto;
     border: 2px solid #444;
 }
