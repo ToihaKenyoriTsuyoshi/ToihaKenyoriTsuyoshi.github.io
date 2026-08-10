@@ -48,6 +48,29 @@ body {
     margin-bottom: 60px;
 }
 
+/* ▼▼▼ セクションの横並びレイアウト ▼▼▼ */
+.section-with-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto 60px auto; /* 中央寄せ＋下余白 */
+}
+
+/* 左側の文章ブロック */
+.section-text {
+    flex: 1;
+    text-align: left;
+}
+
+/* 右側の画像ブロック */
+.section-image img {
+    max-width: 350px; /* 調整OK */
+    height: auto;
+    border: 2px solid #444;
+}
+
 /* フッターリンク */
 .footer-links {
     margin-top: 100px;
