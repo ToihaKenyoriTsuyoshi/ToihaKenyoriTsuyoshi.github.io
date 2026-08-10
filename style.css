@@ -71,6 +71,13 @@ body {
     border: 2px solid #444;
 }
 
+/* WHAT WE EXPLORE / WHAT WE CREATE WITH を中央揃えにする */
+.center-section {
+    max-width: 800px;   /* 中央に置くための幅 */
+    margin: 0 auto;     /* ブロックを中央に配置 */
+    text-align: left;   /* テキストは左揃え */
+}
+
 /* フッターリンク */
 .footer-links {
     margin-top: 100px;
