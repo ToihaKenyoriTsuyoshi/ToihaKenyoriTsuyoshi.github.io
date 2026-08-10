@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.9;
+    padding: 20px;
+}
+
+/* タイトル＋画像の横並び */
+.title-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.title-with-image h1 {
+    flex: 1;
+}
+
+.title-with-image .image-box img {
+    max-width: 250px;
+    height: auto;
+    border: 2px solid #444;
+}
+
+/* セクション */
+.section {
+    margin-bottom: 60px;
+}
+
+/* フッターリンク */
+.footer-links {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-links a {
+    display: block;
+    margin: 12px 0;
+    font-size: 1.1em;
+    color: #4da6ff;
+}
