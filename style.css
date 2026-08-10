@@ -28,6 +28,14 @@ body {
     display: inline-block;
 }
 
+/* 説明文を中央に配置しつつ、文字は左揃え */
+.intro-text {
+    max-width: 800px;      /* 中央に置くための横幅（調整OK） */
+    margin: 0 auto;        /* ブロックを中央に配置 */
+    text-align: left;      /* 文字は左揃え */
+    line-height: 1.9;
+}
+
 /* 画像部分 */
 .title-image img {
     max-width: 600px;
